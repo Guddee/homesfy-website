@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import Home from './Component/Home';
 
 class App extends Component {
   render() {
     return (
-      <h2>
-        My custom library
-      </h2>
+  <Home/>
     );
   }
 }
